@@ -10,8 +10,9 @@ terraform {
 
 provider "azurerm" {
   features {}
-}
-#tony
+  use_cli = false
+  }
+
 resource "azurerm_resource_group" "example" {
   name     = "tony-gitops-rg"
   location = "West Europe"
