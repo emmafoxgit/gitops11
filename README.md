@@ -1,3 +1,3 @@
 # gitops11
 
-readme update to show git ops flow 
+readme update to show git ops flow version2
