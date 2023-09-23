@@ -3,7 +3,14 @@ terraform {
     organization = "emmafoxorg"
 
     workspaces {
-      name = "gitops11"
+      name = "gotops11"
+    }
+  }
+
+  required_providers {
+    azurerm = {
+      source = "hashicorp/azurerm"
+      version = "3.54.0"
     }
   }
 }
@@ -11,7 +18,9 @@ terraform {
 provider "azurerm" {
   features {}
   use_cli = false
-  }
+}
+
+
 
 resource "azurerm_resource_group" "example" {
   name     = "tony-gitops-rg"
