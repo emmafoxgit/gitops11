@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/emmafoxgit/gitops11/compare/v0.1.0...v1.0.0) (2023-09-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* added new subnet
+
+### Code Refactoring
+
+* added new subnet ([86098b7](https://github.com/emmafoxgit/gitops11/commit/86098b7409e81b9a487a91912b1dcae4237d64f7))
+
 ## 0.1.0 (2023-09-24)
 
 
