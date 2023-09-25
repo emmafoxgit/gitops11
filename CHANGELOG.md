@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/emmafoxgit/gitops11/compare/v1.0.0...v1.1.0) (2023-09-25)
+
+
+### Features
+
+* single subnet ([3fbced5](https://github.com/emmafoxgit/gitops11/commit/3fbced516cd08184c9644c831b139f8d63e1b10f))
+
 ## [1.0.0](https://github.com/emmafoxgit/gitops11/compare/v0.1.0...v1.0.0) (2023-09-25)
 
 
