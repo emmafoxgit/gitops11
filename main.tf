@@ -56,6 +56,12 @@ resource "azurerm_virtual_network" "example" {
     address_prefix = "10.0.4.0/24"
     security_group = azurerm_network_security_group.example.id
   }
+   
+  subnet {
+    name           = "subnetnew"
+    address_prefix = "10.0.5.0/24"
+    security_group = azurerm_network_security_group.example.id
+  }
   tags = {
     environment = "Production"
   }
