@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/emmafoxgit/gitops11/compare/v1.1.0...v1.2.0) (2023-09-27)
+
+
+### Features
+
+* push back ([cec5928](https://github.com/emmafoxgit/gitops11/commit/cec5928c651dca244e38d2fef9e8037bb5f5bff8))
+* remove TF apply wait ([98cb8c4](https://github.com/emmafoxgit/gitops11/commit/98cb8c4b002809521e79f98a25cc035309998a1b))
+
 ## [1.1.0](https://github.com/emmafoxgit/gitops11/compare/v1.0.0...v1.1.0) (2023-09-25)
 
 
