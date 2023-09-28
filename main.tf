@@ -40,22 +40,23 @@ resource "azurerm_virtual_network" "example" {
     address_prefix = "10.0.1.0/24"
   }
 
-  #subnet {
-   # name           = "subnet2"
-    #address_prefix = "10.0.2.0/24"
-    #security_group = azurerm_network_security_group.example.id
-  #}
+  subnet {
+    name           = "subnet2"
+    address_prefix = "10.0.2.0/24"
+    security_group = azurerm_network_security_group.example.id
+  }
 
-  #subnet {
-  #  name           = "subnet3"
-  #  address_prefix = "10.0.3.0/24"
-  #  security_group = azurerm_network_security_group.example.id
-  #}
-  #subnet {
-  #  name           = "subnet554"
-  #  address_prefix = "10.0.4.0/24"
-  #  security_group = azurerm_network_security_group.example.id
-  #}
+  subnet {
+    name           = "subnet3"
+    address_prefix = "10.0.3.0/24"
+    security_group = azurerm_network_security_group.example.id
+  }
+  
+  subnet {
+    name           = "subnet4"
+    address_prefix = "10.0.4.0/24"
+    security_group = azurerm_network_security_group.example.id
+  }
    
   
   tags = {
