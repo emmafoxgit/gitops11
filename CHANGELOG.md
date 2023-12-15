@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.1](https://github.com/emmafoxgit/gitops11/compare/v3.0.0...v3.0.1) (2023-12-15)
+
+
+### Bug Fixes
+
+* subnetrangeand20subnetsvnet1 ([141a3b8](https://github.com/emmafoxgit/gitops11/commit/141a3b8d967364a472725c6fb680ff11a4c5f46b))
+* vnet2-addressrange ([7a9b6be](https://github.com/emmafoxgit/gitops11/commit/7a9b6be86ac0a30475b983db2258c04dcf86372b))
+
 ## [3.0.0](https://github.com/emmafoxgit/gitops11/compare/v2.0.0...v3.0.0) (2023-12-15)
 
 
