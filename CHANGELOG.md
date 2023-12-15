@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/emmafoxgit/gitops11/compare/v2.0.0...v3.0.0) (2023-12-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* -vnet2
+
+### Features
+
+* -vnet2 ([94e79bb](https://github.com/emmafoxgit/gitops11/commit/94e79bbeee7b79c67c93506fb181a7828ef87249))
+
 ## [2.0.0](https://github.com/emmafoxgit/gitops11/compare/v1.2.0...v2.0.0) (2023-09-28)
 
 
