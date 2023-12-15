@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.0.0](https://github.com/emmafoxgit/gitops11/compare/v2.0.0...v3.0.0) (2023-12-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* fixed-subnet2issue-newvnet2
+* -vnet2
+
+### Features
+
+* -vnet2 ([94e79bb](https://github.com/emmafoxgit/gitops11/commit/94e79bbeee7b79c67c93506fb181a7828ef87249))
+* fixed-subnet2issue-newvnet2 ([ed65625](https://github.com/emmafoxgit/gitops11/commit/ed65625c0a8d679f3805a03c2d61fb6f08254d77))
+
 ## [2.0.0](https://github.com/emmafoxgit/gitops11/compare/v1.2.0...v2.0.0) (2023-09-28)
 
 
