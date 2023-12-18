@@ -30,7 +30,7 @@ resource "azurerm_virtual_network" "example_vnet" {
 }
 
 resource "azurerm_subnet" "example_subnet" {
-  for_each             = { for i in range(20) : i => format("10.0.%d.0/24", i) }
+  for_each             = { for i in range(30) : i => format("10.0.%d.0/24", i) }
   name                 = "example-subnet-${each.key}"
   resource_group_name  = azurerm_resource_group.example.name
   virtual_network_name = azurerm_virtual_network.example_vnet.name
@@ -45,7 +45,7 @@ resource "azurerm_virtual_network" "example_vnet2" {
 }
 
 resource "azurerm_subnet" "example_subnet2" {
-  for_each             = { for i in range(10) : i => format("192.0.%d.0/24", i) }
+  for_each             = { for i in range(40) : i => format("192.0.%d.0/24", i) }
   name                 = "example-subnet2-${each.key}"
   resource_group_name  = azurerm_resource_group.example.name
   virtual_network_name = azurerm_virtual_network.example_vnet2.name
