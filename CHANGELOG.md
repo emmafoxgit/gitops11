@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/emmafoxgit/gitops11/compare/v3.0.1...v3.1.0) (2023-12-18)
+
+
+### Features
+
+* !loadsofsubnets ([1ebee6b](https://github.com/emmafoxgit/gitops11/commit/1ebee6bb85838332fefdaada2e52cd1e4a013d82))
+
 ## [3.0.1](https://github.com/emmafoxgit/gitops11/compare/v3.0.0...v3.0.1) (2023-12-15)
 
 
