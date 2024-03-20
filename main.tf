@@ -54,13 +54,13 @@ resource "azurerm_subnet" "example_subnet2" {
 
 resource "azurerm_virtual_network" "example_vnet99" {
   name                = "example-vnet99"
-  address_space       = ["192.12.0.0/16"]
+  address_space       = ["86.0.0.0/16"]
   location            = "North Europe"
   resource_group_name = azurerm_resource_group.example.name
 }
 
 resource "azurerm_subnet" "example_subnet99" {
-  for_each             = { for i in range(10) : i => format("192.0.%d.0/24", i) }
+  for_each             = { for i in range(10) : i => format("86.0.%d.0/24", i) }
   name                 = "example-subnet99-${each.key}"
   resource_group_name  = azurerm_resource_group.example.name
   virtual_network_name = azurerm_virtual_network.example_vnet2.name
