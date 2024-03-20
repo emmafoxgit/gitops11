@@ -51,3 +51,4 @@ resource "azurerm_subnet" "example_subnet2" {
   virtual_network_name = azurerm_virtual_network.example_vnet2.name
   address_prefixes     = [each.value]
 }
+#test
