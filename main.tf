@@ -18,7 +18,7 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "example" {
-  name     = "tony-gitops-rg"
+  name     = "tonyfox-gitops-rg"
   location = "North Europe"
 }
 
