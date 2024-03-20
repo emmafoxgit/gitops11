@@ -48,7 +48,7 @@ resource "azurerm_subnet" "example_subnet2" {
   for_each             = { for i in range(40) : i => format("192.0.%d.0/24", i) }
   name                 = "example-subnet2-${each.key}"
   resource_group_name  = azurerm_resource_group.example.name
-  virtual_network_name = azurerm_virtual_network.example_vnet2.name
+  virtual_network_name = azurerm_virtual_network.example_vnet98982.name
   address_prefixes     = [each.value]
 }
 
