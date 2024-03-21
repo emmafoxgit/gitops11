@@ -31,8 +31,8 @@ resource "azurerm_resource_group" "this" {
 
 # This is the module call
 module "nsg" {
-  source = "../../"
-  # source             = "Azure/avm-<res/ptn>-<name>/azurerm"
+  #source = "../../"
+  source             = "Azure/avm-<res/ptn>-<name>/azurerm"
   enable_telemetry    = var.enable_telemetry
   resource_group_name = azurerm_resource_group.this.name
   name                = module.naming.network_security_group.name_unique
